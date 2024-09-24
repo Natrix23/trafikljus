@@ -1,0 +1,43 @@
+body {
+  background-color: #cccccc;
+}
+.item1, .item2, .item3 {
+  height: 200px;
+  width: 200px;
+}
+.item1 { 
+  background-color: #ea3323;
+}
+.item2 { 
+  background-color: #ffff54;
+}
+.item3 { 
+  background-color: #377e22;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: white;
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.yellow-container, .green-container, .red-container {
+  padding: 20px;
+}
+.red-container {
+  background-color: #7f170e;
+}
+.yellow-container {
+  background-color: #b0882f;
+}
+.green-container {
+  background-color: #296218;
+}
+
+
+
